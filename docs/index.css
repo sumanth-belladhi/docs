@@ -10,6 +10,7 @@ body {
     font-size: 16px;
     color: white;
     background-color: black;
+    transition: all 1s ease-in-out;
 }
 
 @media screen and (max-width: 720px) and (min-width: 540px) {
@@ -166,11 +167,11 @@ span {
 }
 
 @keyframes animate {
-    0% {
-        transform: translate(100%);
+    from {
+        transform: translateX(100%);
     }
-    100% {
-        transform: translate(-100%);
+    to {
+        transform: translateX(-100%);
     }
 }
 
