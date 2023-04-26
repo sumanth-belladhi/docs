@@ -185,66 +185,9 @@
     </footer>
     </header5>
     
-   <div class="time ">
-    <div id="hour ">00:</div>
-    <div id="min ">00:</div>
-    <div id="sec ">00</div>
-   </div>
-   <div id="date "></div>
-    </div>
     <script src="https://smtpjs.com/v3/smtp.js ">
     </script>
-    <script>
-          function clock(){
-            const d = new Date();
-           let hour = d.getUTCHours()+6;
-           if(hour==13){
-            hour=1;
-           }
-           if(hour==14){
-            hour=2;
-           }
-           if(hour==15){
-            hour=3;
-           }
-           if(hour==16){
-            hour=4;
-           }
-           if(hour==17){
-            hour=5;
-           }
-           if(hour==18){
-            hour=6;
-           }
-           if(hour==19){
-            hour=7;
-           }
-           if(hour==20){
-            hour=8;
-           }
-           if(hour==21){
-            hour=9;
-           }
-           if(hour==22){
-            hour=10;
-           }
-           if(hour==23){
-            hour=11;
-           }
-           if(hour==24){
-            hour=12;
-           }
-
-           document.getElementById("hour ").innerHTML = hour+" : ";
-          let minutes = d.getMinutes();
-          document.getElementById("min ").innerHTML = minutes+" : ";
-          
-         let second = d.getUTCSeconds();
-         document.getElementById("sec ").innerHTML = second;
-           }
-         var interval=setInterval(clock,1000)
-
-    </script>
+   
 </body>
 
 </html>
