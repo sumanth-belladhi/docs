@@ -10,152 +10,151 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@200;600&family=Public+Sans:wght@300;400&family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://kit.fontawesome.com/c70722c963.css" crossorigin="anonymous">
-    <link rel="stylesheet" href="./index.css" class="rel">
+    <link rel="stylesheet" href="./index.css">
     <script src="https://kit.fontawesome.com/c70722c963.js" crossorigin="anonymous"></script>
-    <script src="./index.js"></script>
+    <style>
+        .mode {
+            position: absolute;
+            right: 10px;
+            cursor: pointer;
+        }
+        
+        .mode:hover {
+            transform: translateY(0px);
+        }
+        
+        .header {
+            display: flex;
+            width: 95vw;
+            justify-content: space-between;
+        }
+        
+        .profile {
+            border-radius: 10px;
+            padding: 10px;
+            width: max-content;
+            align-self: flex-end;
+            background-color: rgb(0, 0, 0);
+        }
+    </style>
 </head>
 
 <body>
-    <div class="container" ">
-        <div class="content " id="content ">
-            
-          <header class="header ">
-            <div class="name "id="head1 ">
-                <h1>sumanth</h1>
-            </div>
-            <div class="profile ">
-                <img src="./3.JPG " alt=" ">
-               <a href="https://github.com/settings/profile "><i class="fa fa-github " aria-hidden="true "></i></a> 
-               <a href=https://twitter.com/sumanthbelladhi"><i class="fa fa-twitter " aria-hidden="true "></i></a>
-        <a href="https://www.linkedin.com/in/b-sumanth-b0a785218/"><i class="fa fa-linkedin " aria-hidden="true "></i></a>
-
+    <div id="mode">
+        <i class="fa-solid fa-circle-half-stroke fa-xl mode"></i>
     </div>
-
-    </header>
-
-    <header1 class="header1 ">
-
-
-        <div class="about ">
-            <div class="intro ">
-                <h1>Nice to meet you! I'm <span>Sumanth</span></h1>
-
-            </div>
-
-            <div class="sub-about ">
-                <p>Based in the INDIA ,I'm a student passionate about front end web developmentand loves to solve problems through programming languages</p>
-
-            </div>
-            <a href="#cont">
-                <div class="contact-me ">
-                    <h1>CONTACT ME</h1>
-
+    <div class="container">
+        <div class="content" id="content">
+            <header class="header">
+                <div class="name" id="head1">
+                    <h1>sumanth</h1>
                 </div>
-            </a>
-        </div>
-        <div class="about-image ">
-            <img src="./My project1.png " alt=" ">
-        </div>
-
-
-    </header1>
-    <hr/>
-    <header3 class="skills " id="skills ">
-        <div class="c ">
-            <h1>C</h1>
-            <h3>Beginner</h3>
-        </div>
-        <div class="c++ ">
-            <h1>C++</h1>
-            <h3>Beginner</h3>
-        </div>
-        <div class="java ">
-            <h1>JAVA</h1>
-            <h3>Beginner</h3>
-        </div>
-        <div class="DBMS ">
-            <h1>DBMS</h1>
-            <h3>Beginner</h3>
-        </div>
-        <div class="HTML ">
-            <h1>HTML</h1>
-            <h3>Beginner</h3>
-        </div>
-        <div class="css ">
-            <h1>CSS</h1>
-            <h3>Beginner</h3>
-        </div>
-        <div class="js ">
-            <h1>JavaScript</h1>
-            <h3>Beginner</h3>
-        </div>
-    </header3>
-    <hr>
-    <div class="project ">
-        <inside class="project-title ">
-            <h1>PROJECTS</h1>
-
-        </inside>
-        <header4 class="project-content ">
-            <div class="password ">
-                <div class="img" style="width: 100%;">
-                    <img src="vanilla-img.png" alt=" ">
+                <div class="profile">
+                    <img src="./3.JPG" alt="Profile Picture">
+                    <a href="https://github.com/settings/profile"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    <a href="https://twitter.com/sumanthbelladhi"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href="https://www.linkedin.com/in/b-sumanth-b0a785218/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                 </div>
+            </header>
 
-                <h1>Vanilla Cosmetics</h1>
-
-                <div class="contains ">
-                    <p>HTML</p>
-                    <p>CSS</p>
-                </div>
-                <div class="view ">
-                    <a target="_blank " href="https://vanilla-cosmetics.netlify.app/">
-                        <h3>VIEW PROJECT</h3>
-                    </a>
-                    <a target="_blank " href="https://github.com/VenkataRamanaDerangula/Declaration-Designers_012/tree/main/Project">
-                        <h3>VIEW CODE</h3>
+            <header1 class="header1">
+                <div class="about">
+                    <div class="intro">
+                        <h1>Nice to meet you! I'm <span>Sumanth</span></h1>
+                    </div>
+                    <div class="sub-about">
+                        <p>Based in the INDIA, I'm a student passionate about front end web development and love to solve problems through programming languages.</p>
+                    </div>
+                    <a href="#cont">
+                        <div class="contact-me">
+                            <h class="v">CONTACT ME</h1>
+                        </div>
                     </a>
                 </div>
-            </div>
-            <div class="social-profile ">
-
-                <img src="masio-img.png" alt=" ">
-                <h1>Masio-Watches</h1>
-
-                <div class="contains ">
-                    <p>HTML</p>
-                    <p>CSS</p>
-                    <p>JAVASCRIPT</p>
+                <div class="about-image">
+                    <img src="./My project1.png" alt="About Image">
                 </div>
-                <div class="view ">
-                    <a target="_blank " href="https://masiowatch.netlify.app/">
-                        <h3>VIEW PROJECT</h3>
-                    </a>
-                    <a target="_blank " href="https://github.com/sumanthbelladhi/App-Archers_030">
-                        <h3>VIEW CODE</h3>
-                    </a>
+            </header1>
+            <hr />
+            <header3 class="skills" id="skills">
+                <div class="c">
+                    <h1>C</h1>
+                    <h3>Beginner</h3>
                 </div>
+                <div class="c++">
+                    <h1>C++</h1>
+                    <h3>Beginner</h3>
+                </div>
+                <div class="java">
+                    <h1>JAVA</h1>
+                    <h3>Beginner</h3>
+                </div>
+                <div class="DBMS">
+                    <h1>DBMS</h1>
+                    <h3>Beginner</h3>
+                </div>
+                <div class="HTML">
+                    <h1>HTML</h1>
+                    <h3>Beginner</h3>
+                </div>
+                <div class="css">
+                    <h1>CSS</h1>
+                    <h3>Beginner</h3>
+                </div>
+                <div class="js">
+                    <h1>JavaScript</h1>
+                    <h3>Beginner</h3>
+                </div>
+            </header3>
+            <hr>
+            <div class="project">
+                <inside class="project-title">
+                    <h1>PROJECTS</h1>
+                </inside>
+                <header4 class="project-content">
+                    <div class="password">
+                        <div class="img" style="width: 100%;">
+                            <img src="./vanilla-img.png" alt="Vanilla Cosmetics">
+                        </div>
+                        <h1>Vanilla Cosmetics</h1>
+                        <div class="contains">
+                            <p>HTML</p>
+                            <p>CSS</p>
+                        </div>
+                        <div class="view">
+                            <a target="_blank" href="https://vanilla-cosmetics.netlify.app/">
+                                <h3 class="v">VIEW PROJECT</h3>
+                            </a>
+                            <a target="_blank" href="https://github.com/VenkataRamanaDerangula/Declaration-Designers_012/tree/main/Project">
+                                <h3 class="v">VIEW CODE</h3>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="social-profile">
+                        <img src="./masio-img.png" alt="Masio Watches">
+                        <h1>Masio-Watches</h1>
+                        <div class="contains">
+                            <p>HTML</p>
+                            <p>CSS</p>
+                            <p>JAVASCRIPT</p>
+                        </div>
+                        <div class="view">
+                            <a target="_blank" href="https://masiowatch.netlify.app/">
+                                <h3 class="v">VIEW PROJECT</h3>
+                            </a>
+                            <a target="_blank" href="https://github.com/sumanthbelladhi/App-Archers_030">
+                                <h3 class="v">VIEW CODE</h3>
+                            </a>
+                        </div>
+                    </div>
+                </header4>
             </div>
-        </header4>
-
-
-
+        </div>
     </div>
 
-    </div>
-    </div>
-
-
-
-
-    </div>
     <div class="cont" id="cont">
         <header5>
-            <h1>
-                CONTACT
-            </h1>
-
+            <h1>CONTACT</h1>
             <form action="https://formsubmit.co/sumanthbelladhi@gmail.com" method="post">
                 <div class="in">
                     <label for="name">NAME</label>
@@ -170,27 +169,23 @@
                     <textarea name="message" id="message" class="input" required></textarea>
                 </div>
                 <button type="submit" id="submit" class="input">SEND MESSAGE</button>
-
             </form>
-            <footer class="footer ">
-                <div class="name ">
+            <footer class="footer">
+                <div class="name">
                     <h1>sumanth</h1>
                 </div>
-                <div class="profile ">
-                    <img src="./3.JPG " alt=" ">
-                    <a href="https://github.com/settings/profile "><i class="fa fa-github " aria-hidden="true "></i></a>
-                    <a href=https://twitter.com/sumanthbelladhi "><i class="fa fa-twitter " aria-hidden="true "></i></a>
-                    <a href="https://www.linkedin.com/in/b-sumanth-b0a785218/ "><i class="fa fa-linkedin " aria-hidden="true "></i></a>
-
+                <div class="profile">
+                    <img src="./3.JPG" alt="Profile Picture">
+                    <a href="https://github.com/settings/profile"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    <a href="https://twitter.com/sumanthbelladhi"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href="https://www.linkedin.com/in/b-sumanth-b0a785218/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                </div>
+            </footer>
+        </header5>
     </div>
 
-    </footer>
-    </header5>
-    
-    <script src="https://smtpjs.com/v3/smtp.js ">
-    </script>
-   
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 </body>
 
 </html>
-<!--   <p>I Would love to get in contact with you please fill the form and i will get back as soon as possible</p>-->
+<script src="./index.js"></script>
