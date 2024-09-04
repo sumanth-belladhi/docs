@@ -19,9 +19,8 @@ mode.addEventListener("click", function() {
 
 
     } else {
-        this.innerHTML = `<i class="fa-solid fa-sun fa-xl mode" style="color:  #F7CD5D;"></i>
+        this.innerHTML = `<i class="fa-solid fa-sun fa-xl mode" style="color:#F7CD5D;"></i>`;
 
-`
         document.getElementsByTagName("body")[0].style.backgroundColor = "black";
         document.getElementsByTagName("body")[0].style.color = "white";
 
